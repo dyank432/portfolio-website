@@ -1,0 +1,21 @@
+.header-icons{
+    display: flex;
+    height: 5em;
+    background-color: #006f6f;
+}
+
+.linkedin-icon{
+    color: beige;
+}
+
+.github-icon{
+    color: beige;
+}
+
+.linkedin-icon:hover{
+    color: darkorange;
+}
+
+.github-icon:hover{
+    color: darkorange;
+}
