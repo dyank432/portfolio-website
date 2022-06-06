@@ -27,9 +27,9 @@ const about = () => {
         </div>
       </div>
 
-      <div className="item-list">
+      {/* <div className="item-list">
         <Item/>
-      </div>
+      </div> */}
     </div>
   )
 }
