@@ -3,7 +3,6 @@ import './intro.css'
 import Splash from "../../img/img_1.jpg"
 import { IoArrowDown, IoMail } from "react-icons/io5";
 
-
  const Intro = () => {
    return (
        
@@ -24,14 +23,16 @@ import { IoArrowDown, IoMail } from "react-icons/io5";
 
                 <div className="text-div">
                     <p className="intro-desc">
-                        I am a student, looking to break into the web design / software development space. 
+                        I am a recent graduate, Highly interested in working in the web / software development space. 
                         I am very enthusiastic about learning new technologies and growing as a developer. 
-                        Some languages I know include: HTML, CSS, PHP, JavaScript, Java, Python. 
+                        Some languages I know include: TypeScript, JavaScript, Java, Python, HTML, CSS, and PHP. 
                     </p>
                 </div>
 
                 <div className="intro-scroll">
-                    <IoArrowDown size="5em" className="arrow-icon"/>
+                    <a href="#works">
+                        <IoArrowDown size="5em" className="arrow-icon"/>
+                    </a>
                 </div>
 
             </div>

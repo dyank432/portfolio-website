@@ -6,7 +6,7 @@ import { IoLogoGithub } from "react-icons/io5";
 
 const about = () => {
   return (
-    <div className="works">
+    <div className="works" id="works">
       <div className="works-text">
         <h1 className="works-title"> Some of my work/projects:</h1>
         <p className="works-desc">
