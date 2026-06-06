@@ -23,9 +23,9 @@ import { IoArrowDown, IoMail } from "react-icons/io5";
 
                 <div className="text-div">
                     <p className="intro-desc">
-                        I am a recent graduate, Highly interested in working in the web / software development space. 
-                        I am very enthusiastic about learning new technologies and growing as a developer. 
-                        Some languages I know include: TypeScript, JavaScript, Java, Python, HTML, CSS, and PHP. 
+                        Technology professional with experience in enterprise web content deployment, release coordination, and website operations. <br></br> <br></br>
+                        My background includes software testing, automation, and full-stack development projects using React, C#, ASP.NET Core, JavaScript, and Python.
+                        I enjoy solving technical challenges, improving processes, and continuously expanding my knowledge across software development, DevOps, and web operations.
                     </p>
                 </div>
 
