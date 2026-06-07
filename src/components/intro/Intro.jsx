@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css'
 import Splash from "../../img/img_1.jpg"
-import { IoArrowDown, IoMail } from "react-icons/io5";
+import { IoArrowDown } from "react-icons/io5";
 
  const Intro = () => {
    return (
