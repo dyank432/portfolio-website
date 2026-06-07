@@ -1,6 +1,6 @@
 import React from 'react'
 import "./works.css"
-import Item from "../item/Item"
+//import Item from "../item/Item"
 import { IoLogoGithub } from "react-icons/io5";
 
 

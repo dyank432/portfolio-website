@@ -5,7 +5,7 @@ import Works from './components/works/Works';
 import About1 from './components/about/About1';
 import About2 from './components/about/About2';
 import About3 from './components/about/About3';
-import Item from './components/item/Item';
+//import Item from './components/item/Item';
 import Contact from './components/contact/Contact';
 // import { BrowserRouter } from 'react-router-dom';
 // import { HashLink as Link } from "react-router-hash-link";
