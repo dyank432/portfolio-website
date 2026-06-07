@@ -34,14 +34,16 @@ const Item = ({ slides }) => {
       {slides.map((slide, index) => {
         return (
           <div className={index === current ? 'slide active' : 'slide'} key={index}>
-            {index === current && (<a href={slide.link} target="_blank" rel="noreferrer" ><img
-              src={slide.image}
-              alt="Project screenshot"
-              className="image"
-            /></a>)}
+            <a href={slide.link} target="_blank" rel="noreferrer">
+              <img
+                src={slide.image}
+                alt="Project screenshot"
+                className="image"
+              />
+            </a>
           </div>
         )
-      })}a
+      })}
 
       <IoCaretForwardCircleOutline className='right-arrow' onClick={nextSlide} />
     </div>

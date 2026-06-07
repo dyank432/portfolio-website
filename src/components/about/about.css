@@ -1,54 +1,81 @@
-.about1-container{
-    height: 100%;
-    background-color: darkcyan;
-    padding: 50px;
-    display: column;
-
+.about1-container,
+.about-container,
+.about-container-alt {
+    width: 100%;
+    padding: 50px 50px 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
     font-size: 18px;
     color: lightcyan;
 }
 
-.about1-container > h1{
-    font-size: 45px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.about-container > h1{
-    font-size: 45px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
-    color: lightcyan;
-}
-
-.about-container-alt > h1{
-    font-size: 45px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
-    color: lightcyan;
-}
-
-.about-container{
-    height: 100%;
+.about1-container,
+.about-container {
     background-color: darkcyan;
-    padding: 50px;
-    display: flex;
-
-    font-size: 18px;
-    color: lightcyan;
 }
 
-.about-container-alt{
-    height: 100%;
+.about-container-alt {
     background-color: lightseagreen;
-    padding: 50px;
-    display: flex;
+}
 
-    font-size: 18px;
-    color: lightcyan; 
+.about-text {
+    flex: 1 1 62%;
+    min-width: 320px;
+    max-width: none;
+}
+
+.about1-container .about-text,
+.about-container .about-text {
+    flex: 1 1 50%;
+}
+
+.about-container-alt .about-text {
+    flex: 1 1 50%;
+}
+
+.about-text h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    line-height: 1.7;
+}
+
+.about1-container .slider,
+.about-container .slider {
+    flex: 0 1 50%;
+    min-width: 320px;
+    max-width: 750px;
+    min-height: 520px;
+}
+
+.about-container-alt .slider {
+    flex: 0 1 50%;
+    min-width: 320px;
+    max-width: 550px;
+    min-height: 600px;
+}
+
+@media screen and (max-width: 980px) {
+    .about1-container,
+    .about-container,
+    .about-container-alt {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .about-text,
+    .about1-container .slider,
+    .about-container .slider,
+    .about-container-alt .slider {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .about-text h1 {
+        text-align: center;
+    }
 }
